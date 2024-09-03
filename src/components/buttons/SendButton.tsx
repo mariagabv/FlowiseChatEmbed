@@ -19,7 +19,7 @@ export const SendButton = (props: SendButtonProps) => {
         'py-2 px-4 justify-center font-semibold text-white focus:outline-none flex items-center disabled:opacity-50 disabled:cursor-not-allowed disabled:brightness-100 transition-all filter hover:brightness-90 active:brightness-75 chatbot-button ' +
         props.class
       }
-      style={{ background: 'transparent', border: 'none' }}
+      style={{ background: '#C43116', border: 'none' }}
     >
       <Show when={!props.isLoading} fallback={<Spinner class="text-white" />}>
         <SendIcon color={props.sendButtonColor} class={'send-icon flex ' + (props.disableIcon ? 'hidden' : '')} />
@@ -41,8 +41,8 @@ export const DeleteButton = (props: SendButtonProps) => {
         `py-2 ${paddingClass} justify-center font-semibold text-white focus:outline-none flex items-center disabled:opacity-50 disabled:cursor-not-allowed disabled:brightness-100 transition-all filter hover:brightness-90 active:brightness-75 chatbot-button ` +
         props.class
       }
-      style={{ background: 'transparent', border: 'none' }}
-      title="Reset Chat"
+      style={{ background: '#C43116', border: 'none' }}
+      title="Empezar una nueva conversación"
     >
       <Show when={!props.isLoading} fallback={<Spinner class="text-white" />}>
         <DeleteIcon color={props.sendButtonColor} class={'send-icon flex ' + (props.disableIcon ? 'hidden' : '')} />
