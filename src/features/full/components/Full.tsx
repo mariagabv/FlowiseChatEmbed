@@ -57,9 +57,9 @@ export const Full = (props: FullProps, { element }: { element: HTMLElement }) =>
           }}
         >
           <Bot
-            badgeBackgroundColor='#C43116'
+            badgeBackgroundColor="#C43116"
             bubbleBackgroundColor={props.theme?.button?.backgroundColor ?? defaultButtonColor}
-            bubbleTextColor='#C43116'
+            bubbleTextColor="#C43116"
             showTitle={props.theme?.chatWindow?.showTitle}
             showAgentMessages={props.theme?.chatWindow?.showAgentMessages}
             title={props.theme?.chatWindow?.title}
