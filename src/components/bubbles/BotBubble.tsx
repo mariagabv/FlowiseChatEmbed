@@ -30,7 +30,7 @@ type Props = {
 const defaultBackgroundColor = '#f7f8ff';
 const defaultTextColor = '#303235';
 const defaultFontSize = 16;
-const defaultFeedbackColor = '#3B81F6';
+const defaultFeedbackColor = '#C43116';
 
 Marked.setOptions({ isNoP: true });
 
